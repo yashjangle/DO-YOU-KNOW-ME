@@ -1,0 +1,7 @@
+var readLineSync = require("readline-sync");
+var chalk = import("chalk");
+
+var nameInput = readLineSync.question("Hello! May I know your name?")
+
+console.log(chalk.bold.bgYellow("Welcome" + nameInput + "to DO YOU KNOW ME?"))
+console.log(nameInput + "there are total 7 questions.")
